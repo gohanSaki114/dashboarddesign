@@ -27,9 +27,8 @@ namespace dashboarddesign
              home = new homefragment();
             like = new likefragment(); 
             location = new locationfragment();
-            profilefragment = new profilefragment();    
-
-
+            profilefragment = new profilefragment();
+            SupportFragmentManager.BeginTransaction().Replace(Resource.Id.flFragment, home).Commit();
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
