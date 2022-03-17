@@ -25,6 +25,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 android:text="Dashboard"
+                android:textColor="#000000"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
@@ -134,12 +135,15 @@
         <TextView
             app:layout_constraintStart_toStartOf="parent"
             android:text="Daily spends"
+            android:textColor="#bebebf"
+            android:textAllCaps="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <TextView
             android:textColor="#2c62ff"
             app:layout_constraintEnd_toEndOf="parent"
-            android:text="See all"
+            android:text="See All"
+            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -177,12 +181,13 @@
         <TextView
             app:layout_constraintStart_toStartOf="parent"
             android:text="Whishlist"
+            android:textAllCaps="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <TextView
             android:textColor="#2c62ff"
             app:layout_constraintEnd_toEndOf="parent"
-            android:text="See all"
+            android:text="See All"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
