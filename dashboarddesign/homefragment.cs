@@ -30,10 +30,10 @@ namespace dashboarddesign
         {
             leavelist = new List<dashboardmodule>
             {
-               new dashboardmodule{ type ="Net Banking",currency="$232.5",day="16 feb"},
-               new dashboardmodule{ type ="Foods and Drinks",currency="$232.5",day="14 mar"},
-               new dashboardmodule{ type ="Clothes",currency="$232.5",day="17 apr"},
-               new dashboardmodule{ type ="Sports",currency="$232.5",day="18 may"},
+               new dashboardmodule{ type ="Net Banking",currency="$232.5",day="16 feb",imageid = Resource.Drawable.ic_home},
+               new dashboardmodule{ type ="Foods and Drinks",currency="$232.5",day="14 mar",imageid = Resource.Drawable.ic_dine},
+               new dashboardmodule{ type ="Clothes",currency="$232.5",day="17 apr",imageid = Resource.Drawable.ic_cloths},
+               new dashboardmodule{ type ="Sports",currency="$232.5",day="18 may",imageid = Resource.Drawable.ic_sub},
             };
         }
 

@@ -12,7 +12,8 @@ using System.Text;
 namespace dashboarddesign
 {
     public class dashboardmodule
-    {
+    { 
+        public int imageid { get; set; }
         public string type { get; set; }
         public string currency { get; set; }
         public string day { get; set; }
