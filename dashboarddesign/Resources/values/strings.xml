@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">dashboarddesign</string>
     <string name="action_settings">Settings</string>
+	<string name="dashstring">Dashboard</string>
+	<string name="monthstring">January</string>
+	<string name="currencystring">$ 500</string>
+	<string name="percentagestring">70%</string>
+	<string name="dailyspends">Daily spend target:$16.67</string>
+	<string name="spendaily">Daily spends</string>
+	<string name="seeall">See All</string>
+	<string name="Whishliststr">Whishlist</string>
+	
 </resources>
